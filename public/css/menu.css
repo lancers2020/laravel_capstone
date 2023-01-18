@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu-display-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: cursive;
+}
+.menu-display-child{
+    overflow-y: scroll;
+    height: 545px;
+    border-radius: 20px;
+}
+
+.menu-wrapper{
+    background-color: rgb(255, 225, 150);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px;
+    border-radius: 15px;
+    margin-top: 82px;
+}
+#section-2{
+height: 600px;
+/* background-color:#DD7230; */
+}
+
+/* menu-navbar */
+.menu-navbar-wrapper{
+display: flex;
+justify-content: center;
+}
+.menu-navbar-wrapper>div{
+margin: 10px;
+background-color: #DD7230;
+padding: 5px;
+border-radius: 5px;
+color: white;
+border: 2px solid #DD7230;
+cursor: pointer;
+font-family: cursive;
+}
+.menu-navbar-wrapper>div:hover{
+background-color: rgb(255, 225, 150);
+border: 2px solid #ab4607;
+color: black;
+}
+
+.card-container{
+    background-color: #850000;
+    padding: 5px;
+    margin: 10px;
+    width: fit-content;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    color: color;
+}
+.card-child{
+    font-size: 15px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+    color: white;
+    /* background-color: green; */
+}
+.card-child>div:nth-child(2)>div:nth-child(1){
+    margin-bottom: 20px;
+    /* background-color: blue; */
+}
+.card-child>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-child>div:nth-child(1)>img{
+    border-radius: 20px;
+}
+.card-grandchild{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    height: 80%;
+}
+.over-flow-display{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(247, 199, 168);
+}
+
+/* mini navbar in menupage */
+.mini-navbar-menu{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+.mini-navbar-menu>a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-inline: 20px;
+    padding: 5px;
+    border: 3px soid rgb(255, 225, 150);
+}
+.mini-navbar-menu>a:hover{
+    /* border: 3px solid rgb(255, 225, 150); */
+    box-shadow: 0 0 10px 2px #943f0a;
+    border-radius: 5px;
+    background-color: #DD7230;
+    color: white;
+}
